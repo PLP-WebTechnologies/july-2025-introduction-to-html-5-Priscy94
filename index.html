@@ -1,0 +1,63 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="VirtualEase — your reliable virtual assistant for administrative and customer care support." />
+  <meta name="keywords" content="Executive Virtual Assistant, remote support, admin tasks, customer care, VirtualEase" />
+  <meta name="author" content="Prisca Wamboka" />
+  <title>VirtualEase | Virtual Assistant Services</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header role="banner">
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>VirtualEase</h1>
+    <p>Efficient. Professional. Personalized Virtual Assistance.</p>
+  </header>
+
+  <main role="main">
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">What I Offer</h2>
+      <ul>
+        <li>📋 Administrative Support (Scheduling, Email Management)</li>
+        <li>💬 Customer Care Services</li>
+        <li>🧾 Data Entry & Documentation</li>
+        <li>🎨 Creative Projects (Coloring Book Design, Branding)</li>
+        <li>🛠️ Tool Proficiency: Microsoft Office, Google Workspace, Zoom, Trello</li>
+      </ul>
+    </section>
+
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>Hello! I'm Prisca Wamboka, a detail-oriented and proactive virtual assistant with a passion for helping businesses run smoothly. I combine strong organizational skills with creative flair to deliver tailored support that makes a difference.</p>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Let’s Connect</h2>
+      <form action="/submit" method="POST" aria-describedby="contact-desc">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required aria-required="true" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required aria-required="true" />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 VirtualEase by Prisca Wamboka. All rights reserved.</p>
+  </footer>
+</body>
+</html>
